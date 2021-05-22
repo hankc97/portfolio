@@ -2054,7 +2054,7 @@ input, select, textarea {
 			border: solid 2px #fff;
 			display: inline-block;
 			font-size: 1.35em;
-			height: calc(3em + 2px);
+			height: 100px;
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
@@ -2139,6 +2139,43 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+
+        .skill-img {
+            width: 96px;
+            height: 96px;
+            padding: 12px;
+            margin: 0 10px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+            .skill-img img {
+                width: 96px;
+                height: 96px;
+            }
+
+        .skill-img2 {
+            width: 48px;
+            height: 48px;
+            padding: 7px;
+        }
+        .skill-icon {
+            margin: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 96px;
+            height: 96px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .skill-img, .skill-icon {
+            margin: 30px;
+        }
 
 /* List */
 
@@ -2322,6 +2359,8 @@ input, select, textarea {
 
 		ul.icons.major {
 			padding: 1em 0;
+            display:flex;
+            flex-wrap: wrap;
 		}
 
 			ul.icons.major li {
@@ -2497,6 +2536,7 @@ input, select, textarea {
 			background-color: #ed4933;
 			box-shadow: none !important;
 			color: #ffffff !important;
+            margin: 5px;
 		}
 
 			input[type="submit"].primary:hover,
@@ -3791,6 +3831,7 @@ input, select, textarea {
 			-ms-order: 2;
 			order: 2;
 			width: 30%;
+            padding: 5px;
 		}
 
 		@media screen and (max-width: 980px) {
