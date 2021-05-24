@@ -1,6 +1,6 @@
 Hank's Portfolio And Resume
 
-https://hankc97.github.io/portfolio/
+[Live Website](https://hankc97.github.io/portfolio/)
 
 Credits:
 
