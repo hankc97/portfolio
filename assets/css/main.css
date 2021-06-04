@@ -2725,11 +2725,19 @@ input, select, textarea {
 			order: 1;
 			border-radius: 0;
 			width: 40%;
+            height: 90%;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				width: 110%;
+                height: 60%;
+			}
+
+            .spotlight .image video {
+				border-radius: 0;
+				width: 110%;
+                height: 60%;
 			}
 
 		.spotlight .content {
@@ -2740,6 +2748,7 @@ input, select, textarea {
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+            margin-left: 30px;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2750,15 +2759,29 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+            color: #f5543c;
+			background-color: #c3f53c;
+		}
+        .spotlight:nth-child(1) h2 {
+            color: #6d3cf5;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			color: #f5543c;
+			background-color: #c3f53c;
+		}
+
+        .spotlight:nth-child(2) h2 {
+			color: #6d3cf5;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			color: #f5543c;
+			background-color: #c3f53c;
+		}
+
+        .spotlight:nth-child(3) h2 {
+			color: #6d3cf5;
 		}
 
 		.spotlight:nth-child(4) {
